@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="07625ac7803f4bd0bd29cc031ef70db3" Name="Diagram1">
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.CHITIETHOADON" Width="1.5" PointX="10.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.HANGHOA" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.HOADON" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.KHACHHANG" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.LOAIHANGHOA" Width="1.5" PointX="0.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.NHANVIEN" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.NHANVIENBANHANG" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.NHANVIENKHO" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.PHIEUHANGHOA" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.PHIEUHANGXUAT" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.PHIEUNHAP" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.PHIEUXUAT" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.sysdiagram" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYSIEUTHIModel.TAIKHOAN" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_CHITIETHOADON_MAHOADON" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_CHITIETHOADON_MASANPHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_HANGHOA_MALOAI" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_PHIEUHANGHOA_MASANPHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_PHIEUHANGXUAT_MASANPHAM" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_HOADON_MAKHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_NHANVIEN_MAQUANLY" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_NHANVIENBANHANG_MANHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_NHANVIENKHO_MANHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_PHIEUNHAP_MANHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_PHIEUXUAT_MANHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_TAIKHOAN_MANHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_PHIEUHANGHOA_MAPHIEUNHAP" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLYSIEUTHIModel.FK_PHIEUHANGXUAT_MAPHIEUXUAT" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
